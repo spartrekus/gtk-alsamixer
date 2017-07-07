@@ -7,5 +7,5 @@ all:
 clean:
 	rm -rf *o gtk-alsamixer
 install : all
-	$(INSTALL) -d $(DESTDIR)/usr/bin
+	$(INSTALL) -d   $(DESTDIR)/usr/bin
 	$(INSTALL) gtk-alsamixer $(DESTDIR)/usr/bin/gtk-alsamixer
